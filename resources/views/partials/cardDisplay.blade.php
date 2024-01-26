@@ -7,6 +7,7 @@
         <div class="card">
             <img class="imgDisp" src="{{ $comic["thumb"] }}" alt="">
             <h3>{{strtoupper($comic["title"])}}</h3>
+            <a href="{{ route('comics.show', $comic->id) }}">Mostra dettagli</a>
         </div>
         @endforeach
 
@@ -62,6 +63,8 @@
         width: 13%;
         color: white;
         margin: 1rem;
+        background-color: #222;
+        border:none;
 
     }
 
