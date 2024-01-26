@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('partials.cardDisplay')
+{{-- @include('partials.cardDisplay') --}}
 @include('partials.prodotti')
 
 @endsection
