@@ -1,12 +1,14 @@
 <header>
     <!-- Logo -->
     <div class="imgContainer">
+        <a href="{{ route('home') }}">
         <img id="logo" src="../images/dc-logo.png" alt="">
+        </a>
     </div>
     <!-- navigatore -->
     <div id="linkChain">
         <a href="#">CHARACTERS</a>
-        <a href="#">COMICS</a>
+        <a href="{{route('comics.index')}}">COMICS</a>
         <a href="#">MOVIES</a>
         <a href="#">TV</a>
         <a href="#">GAMES</a>
