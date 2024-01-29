@@ -19,7 +19,9 @@
 <p> {{$comic ['type'] }}<p>
         
         
-
+<a href="{{ route('comics.edit' , $comic->id)}}">
+     <h2>change</h2>
+</a>
     
     
 

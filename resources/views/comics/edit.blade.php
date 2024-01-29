@@ -7,8 +7,9 @@
     <h2>Nuovo fumetto</h2>
     
     
-    <form action="{{ route('comics.store') }}" method="POST">
+    <form action="{{ route('comics.update', $comic->id) }}" method="POST">
         @csrf
+        @method('PUT')
         
         <div class="formLine">
             <label for="title" class="form-label">title</label>
