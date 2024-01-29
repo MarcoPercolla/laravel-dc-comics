@@ -13,7 +13,10 @@
 
     </div>
     <div class="fakeBtn2">
-        <h2>LOAD MORE</h2>
+        <a href="{{ route('comics.create') }}">
+            <h2>LOAD MORE</h2>
+        </a>
+        
     </div>
 </section>
 
