@@ -41,6 +41,12 @@
         </div>
         <button type="submit" class="btn btn-primary">Inserisci</button>
     </form>
+
+    <form action="{{ route('comics.destroy', $comic->id) }}" method="POST">
+        @csrf
+        @method('DELETE')
+        <input type="submit" value="Cancella" class="btn btn-danger">
+    </form>
     
 </div>
 

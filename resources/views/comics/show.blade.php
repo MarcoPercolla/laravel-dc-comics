@@ -22,9 +22,9 @@
 <a href="{{ route('comics.edit' , $comic->id)}}">
      <h2>change</h2>
 </a>
-    
-    
 
+    
+    
 @include('partials.prodotti')
 
 @endsection
