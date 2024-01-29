@@ -39,13 +39,13 @@
             <label for="type" class="form-label">type</label>
             <input type="text" class="form-control" id="type" name="type" value="{{$comic->type}}">
         </div>
-        <button type="submit" class="btn btn-primary">Inserisci</button>
+        <button type="submit">Modifica</button>
     </form>
 
     <form action="{{ route('comics.destroy', $comic->id) }}" method="POST">
         @csrf
         @method('DELETE')
-        <input type="submit" value="Cancella" class="btn btn-danger">
+        <input type="submit" value="Cancella" >
     </form>
     
 </div>
