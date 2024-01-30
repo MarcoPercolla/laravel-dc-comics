@@ -7,8 +7,10 @@
     
         
         
-<img class="imgSolo" src="{{ $comic["thumb"] }}" alt="">
-<div class=bluBand></div>
+
+<div class=bluBand>
+    <img class="imgSolo" src="{{ $comic["thumb"] }}" alt="">  
+</div>
 <h3>{{strtoupper($comic["title"])}}</h3>
 <h2> {{$comic ['title'] }}<h2>
 <p> {{$comic ['description'] }}<p>
@@ -33,13 +35,15 @@
 .imgSolo{
     width:10vw;
     position:absolute;
-    top:14rem;
+    bottom:1.5rem;
     left:5rem;
 }
 
 .bluBand{
     height: 3rem;
+    position: relative;
     background-color: rgb(21, 169, 255)
+    
 }
 
 

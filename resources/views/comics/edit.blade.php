@@ -17,7 +17,7 @@
         </div>
         <div class="formLine">
             <label for="description" class="form-label">description</label>
-            <textarea name="description" class="form-control" id="description"  rows="5"></textarea value="{{$comic->description}}">
+            <textarea name="description" class="form-control" id="description"  rows="5">"{{$comic->description}}"</textarea>
         </div>
         <div class="formLine">
             <label for="thumb" class="form-label">thumb</label>
